@@ -28,8 +28,10 @@ func Black() color.RGBA {
 func MapOfColorThemes() map[string][]color.RGBA {
 	return map[string][]color.RGBA{
 		"base": {
-			White(),
-			Black(),
+			{255, 255, 255, 255},
+			{128, 128, 128, 255},
+			{64, 64, 64, 255},
+			{191, 191, 191, 255},
 		},
 		"ruby": {
 			{255, 255, 255, 255},
