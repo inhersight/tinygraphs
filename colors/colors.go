@@ -27,7 +27,7 @@ func Black() color.RGBA {
 // MapOfColorThemes is used to build random images with colors that go together.
 func MapOfColorThemes() map[string][]color.RGBA {
 	return map[string][]color.RGBA{
-		"base": {
+		"default": {
 			{204, 204, 204, 255},
 			{102, 102, 102, 255},
 			{51, 51, 51, 255},
