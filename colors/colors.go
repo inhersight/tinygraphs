@@ -125,7 +125,6 @@ func MapOfColorThemes() map[string][]color.RGBA {
 		},
 	}
 }
-// Just want to change something
 
 func ArrayToHexString(colors []color.RGBA) (s string) {
 	for _, c := range colors {
