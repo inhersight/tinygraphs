@@ -117,6 +117,12 @@ func MapOfColorThemes() map[string][]color.RGBA {
 			{0, 153, 140, 255},
 			{115, 230, 220, 255},
 		},
+        "opal": {
+			{255, 255, 255, 255},
+			{255, 255, 204, 255},
+			{230, 255, 204, 255},
+			{255, 242, 251, 255},
+		},
 	}
 }
 // Just want to change something
